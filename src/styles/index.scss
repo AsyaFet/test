@@ -1,3 +1,43 @@
+h1 {
+  color: cornflowerblue;
+  background: cornsilk;
+  text-align: center;
+}
+#headerWithStyles {
+  color: green;
+  background: lightblue;
+}
+.list {
+  color: black;
+  background-color: lightgrey;
+}
+p.list {
+  color: #006400;
+  background-color: #fffaf0;
+}
+
+#sectionWithBackground {
+  background-color: lightblue;
+  background-image: url(https://image.freepik.com/free-vector/_1017-19742.jpg);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+#sectionWithBackground h3 {
+  border-left-color: #006400;
+}
+body {
+  padding: 15px;
+  background-color: #b0c4de;
+}
+img {
+  margin: 8px;
+  border-radius: 168px;
+}
+.ImgRad {
+  border-radius: 0px;
+}
 table,
 tr,
 td,
@@ -6,4 +46,28 @@ th {
 }
 table {
   border-collapse: collapse;
+}
+header,
+aside,
+footer,
+main {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  background-color: white;
+}
+#articles {
+  background-color: #ffefd5;
+}
+main {
+  float: left;
+  width: 70%;
+}
+aside {
+  float: right;
+  width: 20%;
+}
+footer {
+  clear: both;
 }
