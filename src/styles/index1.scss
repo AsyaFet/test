@@ -1,0 +1,53 @@
+header,
+footer,
+footer {
+  text-align: center;
+  color: white;
+  background-color: #603a78;
+  padding: 10px 40px;
+
+  margin: 10 px 0;
+}
+#navigColor {
+  color: white;
+}
+h2 {
+  color: #d97062;
+}
+h3 {
+  color: #94d4e5;
+}
+a {
+  color: #d97062;
+}
+.links {
+  color: white;
+}
+img,
+figcaption {
+  padding-left: 80px;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  padding: 15px;
+}
+main {
+  float: left;
+  width: 70%;
+  border-right: 2px dotted #94d4e5;
+  padding-right: 20px;
+}
+aside {
+  float: right;
+}
+footer {
+  clear: both;
+}
