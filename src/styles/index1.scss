@@ -40,14 +40,21 @@ body {
   padding: 15px;
 }
 main {
-  float: left;
+  // float: left;
   width: 70%;
   border-right: 2px dotted #94d4e5;
   padding-right: 20px;
 }
 aside {
-  float: right;
+  // float: right;
 }
 footer {
   clear: both;
+}
+#divWithStyles {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px;
 }
