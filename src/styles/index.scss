@@ -1,42 +1,30 @@
-h1 {
-  color: cornflowerblue;
-  background: cornsilk;
+header,
+footer {
   text-align: center;
-}
-#headerWithStyles {
-  color: green;
-  background: lightblue;
-}
-.list {
-  color: black;
-  background-color: lightgrey;
-}
-p.list {
-  color: #006400;
-  background-color: #fffaf0;
-}
+  color: white;
+  background-color: #603a78;
+  padding: 10px 40px;
 
-#sectionWithBackground {
-  background-color: lightblue;
-  background-image: url(https://image.freepik.com/free-vector/_1017-19742.jpg);
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 15px;
-  padding: 10px 20px;
+  margin: 10 px 0;
 }
-#sectionWithBackground h3 {
-  border-left-color: #006400;
+#navigColor {
+  color: white;
 }
-body {
-  padding: 15px;
-  background-color: #b0c4de;
+h2 {
+  color: #d97062;
 }
-img {
-  margin: 8px;
-  border-radius: 168px;
+h3 {
+  color: #94d4e5;
 }
-.ImgRad {
-  border-radius: 0px;
+a {
+  color: #d97062;
+}
+.links {
+  color: white;
+}
+img,
+figcaption {
+  padding-left: 80px;
 }
 table,
 tr,
@@ -47,27 +35,39 @@ th {
 table {
   border-collapse: collapse;
 }
-header,
-aside,
-footer,
-main {
-  border: 2px solid black;
-  padding: 10px;
-  margin: 10px 0;
-  text-align: center;
-  background-color: white;
-}
-#articles {
-  background-color: #ffefd5;
+body {
+  padding: 15px;
 }
 main {
   float: left;
   width: 70%;
+  border-right: 2px dotted #94d4e5;
+  padding-right: 20px;
 }
 aside {
   float: right;
-  width: 20%;
 }
 footer {
   clear: both;
+}
+#divWithStyles {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  text-indent: 25px;
 }
