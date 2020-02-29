@@ -10,7 +10,7 @@ const user = {
   foodPrefer: ["chicken", "juice", "cucumber"],
 
   getInform: function() {
-    console.log(this.name + this.lastName + this.age);
+    console.log(this.name + " " + this.lastName + " " + this.age);
   }
 };
 
