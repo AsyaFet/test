@@ -38,15 +38,7 @@ table {
 body {
   padding: 15px;
 }
-main {
-  float: left;
-  width: 70%;
-  border-right: 2px dotted #94d4e5;
-  padding-right: 20px;
-}
-aside {
-  float: right;
-}
+
 footer {
   clear: both;
 }
@@ -89,4 +81,8 @@ p {
 #heading {
   font-size: 5vw;
   color: red;
+}
+
+.paddingInSection {
+  padding: 30px;
 }

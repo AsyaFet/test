@@ -7,13 +7,10 @@
     <meta name="description" content="Web page from online course ProFrontend" />
     <meta name="keywords" content="HTML, Paris, Video, Alt-j" />
     <meta name="author" content="Anastasia Fetisova" />
-
-
     <title>Test Page</title>
-    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-  <body>
+  <body onload="onPageLoad()">
     <header>
       <span>ProFrontend</span>
       <br>
@@ -30,7 +27,15 @@
         >Store</a>
       </nav>
     </header>
-    <main> 
+       <section class="paddingInSection">  
+          <input type="text" 
+          value="Hello"   onchange="validateField(this.value)">
+          <br/>
+          <input type="text" onkeydown="console.log('Key down')">
+          <button onclick="buttonClick()">click!</button>
+          <input type="button" value="Day Today"
+          onclick="showTodaysDate()">
+       </section>
       <div>
         <p id="serifFont">Text </p>
         <p id="sansSerifFont">Message</p>
@@ -51,7 +56,8 @@
         <source src="../assets/alt-j-bloodflood.mp3" /> 
       </section>
     <section>
-      <div id="divWithStyles">
+      <div onmouseover="divClick()"
+      id="divWithStyles"  >
         <p>
           Random text
         </p>
@@ -74,7 +80,7 @@
       steps, as is the climb from the first level to the second. Although there
       is a staircase to the top level, it is usually accessible only by lift.
     </p>
-    <img
+    <img onmouseout="pictureAction()"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/360px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
       alt="Eifel Tower"
       width="200px"
@@ -188,9 +194,9 @@
       </tbody>
     </table>
     <br>
-    </main>
+     
     <br>
-  <aside>
+   
     <h3 class="heading">Series & Movies List</h3>
     <ul>
       <li>Sitcom
@@ -215,7 +221,7 @@
       </li>
       
     </ul>
-  </aside>
+   
   <br>
     <footer>
       <nav>

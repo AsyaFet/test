@@ -1,6 +1,7 @@
 import "../styles/index.scss";
-import video from "../assets/video";
-import sound from "../assets/sound";
+import "../styles/index.scss";
+
+import "./events";
 
 const user = {
   name: "Asya",
