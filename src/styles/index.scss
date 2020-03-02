@@ -71,3 +71,22 @@ nav a {
 p {
   text-indent: 25px;
 }
+
+#serifFont {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+#sansSerifFont {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+#monospaceFont {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+}
+#heading {
+  font-size: 5vw;
+  color: red;
+}
