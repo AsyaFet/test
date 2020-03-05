@@ -86,3 +86,23 @@ p {
 .paddingInSection {
   padding: 30px;
 }
+
+.ol-styled > li {
+  color: red;
+}
+
+.ol-styled > li > ul > li {
+  color: black;
+}
+
+.combinators > section > span + div {
+  background-color: cornsilk;
+}
+
+span + section {
+  background-color: yellow;
+}
+
+span ~ div {
+  background-color: darkgoldenrod;
+}

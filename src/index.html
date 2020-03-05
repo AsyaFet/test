@@ -10,7 +10,7 @@
     <title>Test Page</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-  <body onload="onPageLoad()">
+  <body>
     <header>
       <span>ProFrontend</span>
       <br>
@@ -35,6 +35,31 @@
           <button onclick="buttonClick()">click!</button>
           <input type="button" value="Day Today"
           onclick="showTodaysDate()">
+       </section>
+       <section>
+         <ol class="ol-styled">
+           <li>Cat</li>
+           <li>Dog</li>
+           <li> I don`t have
+           <ul>
+             <li>Fish</li>
+             <li>
+               <span>Snake</span>
+               <div>Ohh snake!</div>
+             </li>
+           </ul>
+           </li>
+         </ol>
+       </section>
+       <section class="combinators">
+         <div>
+           Some text
+         </div>
+         <span>More text</span>
+         <section class="inner-combinator">
+           <span>And more txt</span>
+           <div>I am div</div>
+         </section>
        </section>
       <div>
         <p id="serifFont">Text </p>
